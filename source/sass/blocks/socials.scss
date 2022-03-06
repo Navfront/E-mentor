@@ -1,0 +1,40 @@
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+
+  a {
+    display: block;
+  }
+
+  a:not(:last-child) {
+    margin: 0 25px 0 0;
+  }
+
+  svg {
+    color: #353a5a;
+    opacity: 0.3;
+
+    &:hover,
+    &:focus {
+      color: #fa9f42;
+    }
+
+    &:active {
+      color: #fa9f42;
+      opacity: 0.9;
+    }
+  }
+}
+
+.socials--vertical {
+  flex-direction: column;
+
+  svg {
+    color: #fdfdfd;
+    opacity: 1;
+  }
+
+  a:not(:last-child) {
+    margin: 0 0 25px 0;
+  }
+}

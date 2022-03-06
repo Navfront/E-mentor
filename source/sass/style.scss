@@ -1,5 +1,10 @@
 @import "./normalize.scss";
-
+@import "./blocks/page.scss";
+@import "./blocks/site-navigation.scss";
+@import "./blocks/socials.scss";
+@import "./blocks/img-decor.scss";
+@import "./blocks/button.scss";
+@import "./blocks/main-header.scss";
 
 .visually-hidden {
   position: absolute;

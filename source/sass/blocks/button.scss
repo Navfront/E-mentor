@@ -1,0 +1,18 @@
+.button {
+  padding: 20px 47px;
+  border-radius: 0 20px;
+  border: none;
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.button--theme-warning {
+  background-color: #fa9f42;
+}
+
+.button--theme-success {
+  background-color: #10b582;
+}
