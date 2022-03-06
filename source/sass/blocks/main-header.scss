@@ -96,6 +96,16 @@
   line-height: 100%;
   margin-right: 14px;
 
+  &:hover,
+  &:focus {
+    color: #fa9f42;
+  }
+
+  &:active {
+    color: #fa9f42;
+    opacity: 0.9;
+  }
+
   svg {
     margin-right: 18px;
     transform: rotate(90deg);
