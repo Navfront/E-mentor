@@ -5,4 +5,10 @@
 .page__body {
   height: 100%;
   font-family: "Raleway", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.page__footer {
+  margin-top: auto;
 }
