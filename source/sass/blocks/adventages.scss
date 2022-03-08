@@ -1,0 +1,30 @@
+.adventages {
+  padding: 105px 0;
+}
+
+.adventages__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  text-align: center;
+  gap: 0 30px;
+}
+
+.adventages__col {
+  padding: 0 20px;
+}
+
+.adventages__dt {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  color: #10b582;
+  font-feature-settings: "pnum" on, "lnum" on;
+  margin-bottom: 15px;
+}
+
+.adventages__dd {
+  margin: 0;
+  font-size: 14px;
+  line-height: 120%;
+  color: #353a5a;
+}

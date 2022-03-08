@@ -1,0 +1,28 @@
+.content {
+  color: #353a5a;
+
+  h2 {
+    padding-top: 65px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .button {
+    margin-top: 32px;
+  }
+}
+
+.content--theme-light {
+  color: #fdfdfd;
+}

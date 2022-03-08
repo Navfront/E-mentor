@@ -1,4 +1,5 @@
 .button {
+  display: inline-flex;
   padding: 20px 47px;
   border-radius: 0 20px;
   border: none;
@@ -24,6 +25,7 @@
 
 .button--theme-success {
   background-color: #10b582;
+  padding: 20px 38px;
 
   &:hover,
   &:focus {

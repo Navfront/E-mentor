@@ -1,0 +1,40 @@
+.teachers {
+  margin-bottom: 120px;
+}
+
+.teachers__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teachers__text {
+  flex: 0 1 500px;
+}
+
+.teachers__gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 0 1 570px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(170px, auto));
+  gap: 30px;
+  justify-content: center;
+}
+
+.teachers__round-photo {
+  margin: 0;
+
+  img {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+.teachers__photo-caption {
+  max-width: 170px;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #353a5a;
+}

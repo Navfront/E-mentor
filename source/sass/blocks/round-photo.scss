@@ -1,0 +1,29 @@
+.round-photo--l-b {
+  img {
+    border-radius: 0 0 0 80px;
+  }
+}
+
+.round-photo--l-t-r-b {
+  img {
+    border-radius: 80px 0;
+  }
+}
+
+.round-photo--r-b {
+  img {
+    border-radius: 0 0 80px 0;
+  }
+}
+
+.round-photo--l-t {
+  img {
+    border-radius: 80px 0 0 0;
+  }
+}
+
+.round-photo--r-t {
+  img {
+    border-radius: 0 80px 0 0;
+  }
+}
