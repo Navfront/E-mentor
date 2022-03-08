@@ -1,0 +1,19 @@
+.extra-art {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../img/banner/pho.jpg");
+  margin-bottom: 120px;
+}
+
+.extra-art__wrapper {
+  display: flex;
+}
+
+.extra-art__text {
+  flex: 0 0 508px;
+  margin-left: auto;
+  margin-right: 60px;
+}
