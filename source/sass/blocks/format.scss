@@ -2,11 +2,17 @@
   padding: 56px 0 120px;
 }
 
-.format__text {
-  flex: 0 1 500px;
-  padding: 0 70px;
-}
-
 .format__image-block {
   margin-top: 94px;
+  justify-self: start;
+}
+
+.format__image-block--justify-end {
+  justify-self: end;
+}
+
+.format__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }

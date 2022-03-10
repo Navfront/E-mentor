@@ -1,12 +1,16 @@
 .adventages__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-template-columns: repeat(4, 1fr);
   text-align: center;
   gap: 0 30px;
 }
 
 .adventages__col {
   padding: 0 20px;
+}
+
+.adventages__col--no-padding {
+  padding: 0;
 }
 
 .adventages__dt {

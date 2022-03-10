@@ -1,0 +1,32 @@
+.article-content {
+  h1 {
+    margin: 59px 0 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 120%;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #353a5a;
+  }
+
+  img {
+    margin: 0 0 37px;
+  }
+
+  p {
+    margin: 0 0 15px;
+    max-width: 810px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  p:first-of-type {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    max-width: 870px;
+    margin-bottom: 26px;
+  }
+}
