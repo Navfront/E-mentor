@@ -20,7 +20,7 @@ const imgRetina = require("gulp-img-retina");
 const fileInclude = require("gulp-file-include");
 
 // Styles
-// ggg
+// ggg v2
 
 const styles = () => {
   return gulp
